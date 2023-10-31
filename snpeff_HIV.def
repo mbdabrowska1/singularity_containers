@@ -1,0 +1,43 @@
+Bootstrap: docker
+From: quay.io/biocontainers/snpeff:5.1--hdfd78af_2
+
+%labels
+    Author mdbdabrowska1
+    Version 1.0
+
+%help
+    This container runs SnpEff 5.1 with addiitional support for custom HIV genome.
+
+%setup
+    mkdir /usr/local/share/HIV_GCA_003102975.1
+
+%files
+    /home/md1mbdx/Documents/snpeff_build/HIV_GCA_003102975.1/genes.gtf /usr/local/share/HIV_GCA_003102975.1/genes.gtf
+    /home/md1mbdx/Documents/snpeff_build/HIV_GCA_003102975.1/cds.fa /usr/local/share/HIV_GCA_003102975.1/cds.fa
+    /home/md1mbdx/Documents/snpeff_build/HIV_GCA_003102975.1/protein.fa /usr/local/share/HIV_GCA_003102975.1/protein.fa
+    /home/md1mbdx/Documents/snpeff_build/HIV_GCA_003102975.1/sequences.fa /usr/local/share/HIV_GCA_003102975.1/sequences.fa
+
+%post
+    # Move HIV genome files
+    mkdir /usr/local/share/snpeff-5.1-2/data
+    mv /usr/local/share/HIV_GCA_003102975.1 /usr/local/share/snpeff-5.1-2/data/
+
+    # Add HIV information into snpEff.config file
+    echo "" >> /usr/local/share/snpeff-5.1-2/snpEff.config
+    echo "# HIV Human immunodeficiency virus type 1 (HXB2)" >> /usr/local/share/snpeff-5.1-2/snpEff.config
+    echo "HIV_GCA_003102975.1.genome : HIV" >> /usr/local/share/snpeff-5.1-2/snpEff.config
+
+    # Build the HIV genome
+    snpEff build -gtf22 -d HIV_GCA_003102975.1
+
+    # Verify the build
+    snpEff databases | grep "HIV"
+
+    # Add metadata
+    NOW=`date`
+    echo "export NOW=\"${NOW}\"" >> $SINGULARITY_ENVIRONMENT
+
+%runscript
+    echo "Container was created $NOW"
+    echo "Arguments received: $*"
+    exec echo "$@"
