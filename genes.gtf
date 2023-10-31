@@ -1,0 +1,43 @@
+#gtf-version 2.2
+#!genome-build ASM310297v1
+#!genome-build-accession NCBI_Assembly:GCA_003102975.1
+K03455.1	Genbank	CDS	790	2289	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50258"; gbkey "CDS"; product "AAB50258"; protein_id "AAB50258"; exon_number "1"; 
+K03455.1	Genbank	start_codon	790	792	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50258"; gbkey "CDS"; product "AAB50258"; protein_id "AAB50258"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	2290	2292	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50258"; gbkey "CDS"; product "AAB50258"; protein_id "AAB50258"; exon_number "1"; 
+
+K03455.1	Genbank	CDS	2253	2549	.	+	0	gene_id "PROTEASE"; transcript_id "PROTEASE"; gbkey "CDS"; product "PROTEASE"; protein_id "PROTEASE"; exon_number "1"; 
+K03455.1	Genbank	start_codon	2253	2255	.	+	0	gene_id "PROTEASE"; transcript_id "PROTEASE"; gbkey "CDS"; product "PROTEASE"; protein_id "PROTEASE"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	2547	2549	.	+	0	gene_id "PROTEASE"; transcript_id "PROTEASE"; gbkey "CDS"; product "PROTEASE"; protein_id "PROTEASE"; exon_number "1";
+
+K03455.1	Genbank	CDS	2550	3869	.	+	0	gene_id "REVERSE_TRANSCRIPTASE"; transcript_id "REVERSE_TRANSCRIPTASE"; gbkey "CDS"; product "REVERSE_TRANSCRIPTASE"; protein_id "REVERSE_TRANSCRIPTASE"; exon_number "1"; 
+K03455.1	Genbank	start_codon	2550	2552	.	+	0	gene_id "REVERSE_TRANSCRIPTASE"; transcript_id "REVERSE_TRANSCRIPTASE"; gbkey "CDS"; product "REVERSE_TRANSCRIPTASE"; protein_id "REVERSE_TRANSCRIPTASE"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	3867	3869	.	+	0	gene_id "REVERSE_TRANSCRIPTASE"; transcript_id "REVERSE_TRANSCRIPTASE"; gbkey "CDS"; product "REVERSE_TRANSCRIPTASE"; protein_id "REVERSE_TRANSCRIPTASE"; exon_number "1";
+
+K03455.1	Genbank	CDS	4230	5093	.	+	0	gene_id "INTEGRASE"; transcript_id "INTEGRASE"; gbkey "CDS"; product "INTEGRASE"; protein_id "INTEGRASE"; exon_number "1"; 
+K03455.1	Genbank	start_codon	4230	4232	.	+	0	gene_id "INTEGRASE"; transcript_id "INTEGRASE"; gbkey "CDS"; product "INTEGRASE"; protein_id "INTEGRASE"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	5091	5093	.	+	0	gene_id "INTEGRASE"; transcript_id "INTEGRASE"; gbkey "CDS"; product "INTEGRASE"; protein_id "INTEGRASE"; exon_number "1";
+
+K03455.1	Genbank	CDS	2358	5093	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50259"; gbkey "CDS"; product "AAB50259"; protein_id "AAB50259"; exon_number "1"; 
+K03455.1	Genbank	start_codon	2358	2360	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50259"; gbkey "CDS"; product "AAB50259"; protein_id "AAB50259"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	5094	5096	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50259"; gbkey "CDS"; product "AAB50259"; protein_id "AAB50259"; exon_number "1"; 
+K03455.1	Genbank	CDS	5041	5616	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50260"; gbkey "CDS"; product "AAB50260"; protein_id "AAB50260"; exon_number "1"; 
+K03455.1	Genbank	start_codon	5041	5043	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50260"; gbkey "CDS"; product "AAB50260"; protein_id "AAB50260"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	5617	5619	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50260"; gbkey "CDS"; product "AAB50260"; protein_id "AAB50260"; exon_number "1"; 
+K03455.1	Genbank	CDS	5559	5792	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50261"; gbkey "CDS"; product "AAB50261"; protein_id "AAB50261"; exon_number "1"; 
+K03455.1	Genbank	start_codon	5559	5561	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50261"; gbkey "CDS"; product "AAB50261"; protein_id "AAB50261"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	5793	5795	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50261"; gbkey "CDS"; product "AAB50261"; protein_id "AAB50261"; exon_number "1"; 
+K03455.1	Genbank	CDS	6225	8792	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50262"; gbkey "CDS"; product "AAB50262"; protein_id "AAB50262"; exon_number "1"; 
+K03455.1	Genbank	start_codon	6225	6227	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50262"; gbkey "CDS"; product "AAB50262"; protein_id "AAB50262"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	8793	8795	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50262"; gbkey "CDS"; product "AAB50262"; protein_id "AAB50262"; exon_number "1"; 
+K03455.1	Genbank	CDS	8797	9165	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50263"; gbkey "CDS"; product "AAB50263"; protein_id "AAB50263"; exon_number "1"; 
+K03455.1	Genbank	start_codon	8797	8799	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50263"; gbkey "CDS"; product "AAB50263"; protein_id "AAB50263"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	9166	9168	.	+	0	gene_id "unassigned_gene_1"; transcript_id "AAB50263"; gbkey "CDS"; product "AAB50263"; protein_id "AAB50263"; exon_number "1"; 
+K03455.1	Genbank	CDS	5831	6045	.	+	0	gene_id "unassigned_gene_2"; transcript_id "AAB50256"; gbkey "CDS"; product "AAB50256"; protein_id "AAB50256"; exon_number "1"; 
+K03455.1	Genbank	CDS	8379	8421	.	+	1	gene_id "unassigned_gene_2"; transcript_id "AAB50256"; gbkey "CDS"; product "AAB50256"; protein_id "AAB50256"; exon_number "2"; 
+K03455.1	Genbank	start_codon	5831	5833	.	+	0	gene_id "unassigned_gene_2"; transcript_id "AAB50256"; gbkey "CDS"; product "AAB50256"; protein_id "AAB50256"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	8422	8424	.	+	0	gene_id "unassigned_gene_2"; transcript_id "AAB50256"; gbkey "CDS"; product "AAB50256"; protein_id "AAB50256"; exon_number "2"; 
+K03455.1	Genbank	CDS	5970	6045	.	+	0	gene_id "unassigned_gene_3"; transcript_id "AAB50257"; gbkey "CDS"; product "AAB50257"; protein_id "AAB50257"; exon_number "1"; 
+K03455.1	Genbank	CDS	8379	8650	.	+	2	gene_id "unassigned_gene_3"; transcript_id "AAB50257"; gbkey "CDS"; product "AAB50257"; protein_id "AAB50257"; exon_number "2"; 
+K03455.1	Genbank	start_codon	5970	5972	.	+	0	gene_id "unassigned_gene_3"; transcript_id "AAB50257"; gbkey "CDS"; product "AAB50257"; protein_id "AAB50257"; exon_number "1"; 
+K03455.1	Genbank	stop_codon	8651	8653	.	+	0	gene_id "unassigned_gene_3"; transcript_id "AAB50257"; gbkey "CDS"; product "AAB50257"; protein_id "AAB50257"; exon_number "2"; 
+###
